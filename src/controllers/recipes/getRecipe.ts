@@ -10,7 +10,7 @@ export async function getRecipe(req, res) {
       id: id,
       title: "Chicken Alfredo Pasta",
       ingredients: [
-        "1 lb Panner",
+        "1 lb Chicken",
         "1 cup Alfredo sauce",
         "1/2 cup Parmesan cheese",
         "1/2 cup Mozzarella cheese",
@@ -25,13 +25,13 @@ export async function getRecipe(req, res) {
         "1/4 cup parsley",
         "8 oz fettuccine pasta"
       ],
-      cookingTime: 50,
+      cookingTime: 30,
       instructions: [
         "Cook pasta according to package instructions",
         "Season chicken with salt, pepper, Italian seasoning, and paprika",
         "Heat 2 tbsp butter in a skillet over medium-high heat",
         "Add chicken and cook until golden brown",
-        "Remove chicken from skillet",
+        "Remove chicken from Pan",
         "Add 2 tbsp butter to skillet",
         "Add garlic and cook until fragrant",
         "Add heavy cream, Parmesan cheese, and Mozzarella cheese",
